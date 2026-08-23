@@ -5,6 +5,14 @@
 
 ## 运行
 
+依赖安装：
+
+```powershell
+pip install -r requirements.txt
+```
+
+程序需要真实 DOBOT 机械臂（Dashboard 29999、反馈 30004）和 D435。YOLO 训练/识别还需要准备自己的标注数据、类别文件和权重；仓库没有上传 `best.pt`、数据集或标定结果。不同显卡应安装与驱动匹配的 PyTorch/CUDA 版本。
+
 在 `robotgame` 环境里启动：
 
 ```powershell
